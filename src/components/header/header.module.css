@@ -1,0 +1,28 @@
+.header {
+  background-color: #0085ad;
+  color: white;
+  flex: 1 1 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.logout {
+  all: unset;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  transition: color 0.2s linear;
+  padding: 0.5rem;
+}
+
+.logout:hover {
+  color: skyblue;
+  cursor: pointer;
+}
